@@ -34,7 +34,7 @@
         }
 
         .button-container{
-            padding: 59px 150px 0 33px;
+            padding: 38px 150px 0 33px;
 
             .button-contacto{
                 width: 186px;
@@ -48,6 +48,22 @@
                 font-size: 16px;
                 color: #FAFAFA;
             }
+        }
+        .presentation-color{
+            width: 90%;
+            height: 200px;
+            background:linear-gradient(180deg, #32324E 0%, #F40000 100%);
+            filter: blur(150px);
+            z-index: -1;
+        }
+        .presentation-image{
+            .presentation-image{
+                    z-index: 1;
+                    width: 100%;
+                    padding: 40px 0px 1px 18px;
+                    left: 152px;
+                    // position: absolute;
+                }
         }
 }
     
