@@ -1,0 +1,16 @@
+$Font1: "poppins", sans-serif;
+$color-primary: #000022;
+$color-secondary: #fa0000;
+$color-button: #c80b12;
+$color-white: #ffffff;
+$color-bg: #fafafa;
+$color-gray: #999999;
+
+$tablet: 640px;
+$laptop: 1024px;
+$desktop: 1280px;
+
+html {
+  font-family: $Font1;
+  color: $color-primary;
+}

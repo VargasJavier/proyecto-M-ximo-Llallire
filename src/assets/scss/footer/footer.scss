@@ -1,0 +1,56 @@
+footer {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: 1rem;
+  h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    margin: 1rem;
+  }
+  .text__social {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    .social {
+      display: flex;
+      gap: 1rem;
+      .icon {
+        color: $color-white;
+        font-size: 1.25rem;
+      }
+    }
+  }
+  .notice {
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+  }
+  .form__notice {
+    display: flex;
+    input {
+      width: 60%;
+      background: transparent;
+      border: solid 0.05rem $color-white;
+      border-radius: 0.5rem 0 0 0.5rem;
+      padding: 0.5rem 1rem;
+      color: $color-white;
+    }
+    input::placeholder {
+      color: $color-white;
+    }
+    button {
+      width: 30%;
+      color: $color-primary;
+      border: solid 0.05rem $color-white;
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+  }
+  hr {
+    margin: 4rem 0;
+  }
+  .footer__parraph {
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.125rem;
+  }
+}
