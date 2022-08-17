@@ -29,10 +29,10 @@ function Presentation() {
             <div className='presentation-color'>
                 <p>hola</p>
             </div>
-            
         <div className='presentation-image'>
                 <img className='presentation-image' src={perfil} alt='presentation' />
         </div>
+            
 
     </div>
   )
