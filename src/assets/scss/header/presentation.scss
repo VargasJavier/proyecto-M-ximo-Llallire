@@ -1,6 +1,6 @@
 
 .presentation-container {
-  position: relative;
+//   position: relative;
   background-color: $color-primary;
   height: 903px;
   overflow: hidden;
@@ -59,19 +59,27 @@
     filter: blur(150px);
     z-index: -1;
   }
-  .presentation-image {
-    position: absolute;
+  .container-image {
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
+
     .presentation-image {
-      z-index: 1;
-      max-height: 30rem;
-      object-fit: contain;
-      width: 100%;
-      padding: 40px 0px 1px 18px;
-      // left: 152px;
-      // position: absolute;
+        position: absolute;
+        z-index: 1;
+        max-height: 30rem;
+        object-fit: contain;
+        width: 100%;
+        /* padding: 40px 0px 1px 18px; */
+        top: -112px;
+        left: 20px;
+    }
+
+    .presentation-esfera{
+        width: 35%;
+    position: absolute;
+    top: -152px;
     }
   }
 }

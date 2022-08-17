@@ -1,5 +1,6 @@
 import React from 'react';
 import perfil from './../../../assets/image/perfil.png';
+import esfera from './../../../assets/image/esfera.png';
 
 function Presentation() {
 
@@ -28,8 +29,9 @@ function Presentation() {
             <div className='presentation-color'>
                 <p>hola</p>
             </div>
-        <div className='presentation-image'>
+        <div className='container-image'>
                 <img className='presentation-image' src={perfil} alt='presentation' />
+                <img className='presentation-esfera' src={esfera} alt='esfera' />
         </div>
             
 
