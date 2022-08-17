@@ -7,7 +7,7 @@ function Presentation() {
   return (
     <div className='presentation-container'>
 
-        <div className='title-container'>
+      <div className='title-container'>
 
         {/* client title */}
             <h1 className='presentation-title'>Hola! Soy <br /><span className='presentation-name'>Max Llallire</span></h1>
@@ -34,9 +34,7 @@ function Presentation() {
         </div>
             
 
-    </div>
+      </div>
   )
 }
 
-
-export default Presentation
