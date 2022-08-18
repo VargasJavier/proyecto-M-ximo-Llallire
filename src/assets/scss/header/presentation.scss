@@ -1,12 +1,11 @@
-
 .presentation-container {
-//   position: relative;
+  //   position: relative;
   background-color: $color-primary;
   height: 903px;
   overflow: hidden;
   .title-container {
     padding: 60px 15px 0 33px;
-    
+
     .presentation-title {
       color: $color-white;
       font-weight: bolder;
@@ -66,20 +65,20 @@
     right: 0;
 
     .presentation-image {
-        position: absolute;
-        z-index: 1;
-        max-height: 30rem;
-        object-fit: contain;
-        width: 100%;
-        /* padding: 40px 0px 1px 18px; */
-        top: -112px;
-        left: 20px;
+      position: absolute;
+      z-index: 1;
+      max-height: 30rem;
+      object-fit: contain;
+      width: 100%;
+      /* padding: 40px 0px 1px 18px; */
+      top: -112px;
+      left: 20px;
     }
 
-    .presentation-esfera{
-        width: 35%;
-    position: absolute;
-    top: -152px;
+    .presentation-esfera {
+      width: 35%;
+      position: absolute;
+      top: -152px;
     }
   }
 }

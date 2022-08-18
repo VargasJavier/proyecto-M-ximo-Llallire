@@ -1,0 +1,63 @@
+.section__service {
+  background: $color-bg-custom;
+  color: $color-primary;
+  overflow: hidden;
+  margin-bottom: -6rem;
+  .section__text {
+    padding: 2rem;
+    .hashtag {
+      font-weight: 700;
+      line-height: 1.5rem;
+      color: $color-secondary;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.75rem;
+      margin-bottom: 2rem;
+      word-spacing: -0.2rem;
+    }
+    .parragraph {
+      line-height: 1.5rem;
+      text-align: left;
+    }
+  }
+  .presentation-color {
+    width: 90%;
+    height: 200px;
+    background: linear-gradient(180deg, #32324e 0%, #f40000 100%);
+    filter: blur(75px);
+  }
+  .container__image {
+    position: relative;
+    height: 25rem;
+    top: -10rem;
+    .image {
+      position: absolute;
+    }
+    .esfera1 {
+      width: 15.438rem;
+      filter: blur(1.5rem);
+      left: calc(100% - 4rem);
+    }
+    .esfera2 {
+      width: 5.4rem;
+      filter: blur(0.25rem);
+      bottom: 1rem;
+      right: -2.5rem;
+    }
+    .esfera3 {
+      width: 4rem;
+      left: 3rem;
+      top: 1.5rem;
+    }
+    .man {
+      height: 24rem;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}
