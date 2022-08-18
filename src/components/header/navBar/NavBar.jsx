@@ -12,7 +12,7 @@ function NavBar() {
         <Container>
           {/* title  */}
           <h1 className='title-navbar' href='#home'>
-            &lt;Max-Llallire/&gt;
+            &lt;Max-Llallire /&gt;
           </h1>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
