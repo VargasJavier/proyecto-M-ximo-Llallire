@@ -18,7 +18,7 @@ function Skills() {
                 <div>
                     <motion.div className='slider-container'>
                         <motion.div className='slider' drag='x'
-                         dragConstraints= {{right:153, left: -158}}>
+                         dragConstraints= {{right:153, left: -480}}>
                             <div>
                                 <motion.div className='item'>
                                     <div className='container-img'>
