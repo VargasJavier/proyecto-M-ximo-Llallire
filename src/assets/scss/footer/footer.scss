@@ -8,6 +8,9 @@ footer {
     line-height: 2.75rem;
     margin: 1rem;
   }
+  .footer__nav {
+    display: none;
+  }
   .text__social {
     display: flex;
     justify-content: space-between;
@@ -52,5 +55,44 @@ footer {
     font-size: 0.75rem;
     text-align: center;
     line-height: 1.125rem;
+  }
+}
+footer {
+  @media screen and (min-width: $laptop) {
+    .text__social {
+      display: none;
+    }
+    .footer__header {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem 4rem 4rem 4rem;
+      .footer__nav {
+        display: flex;
+        .footer__ul {
+          display: flex;
+          gap: 5rem;
+          justify-content: space-between;
+          list-style: none;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+          .social {
+            display: flex;
+            gap: 1rem;
+          }
+        }
+      }
+    }
+    .container__form {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 4rem;
+      margin: 0 3rem;
+      .form__notice {
+        width: 30%;
+      }
+    }
   }
 }

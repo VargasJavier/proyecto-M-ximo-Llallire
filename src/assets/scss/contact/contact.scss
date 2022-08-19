@@ -8,6 +8,9 @@
   .image {
     margin: 1rem;
   }
+  .desktop {
+    display: none;
+  }
   .subtitle {
     margin: 0 1rem;
   }
@@ -115,6 +118,13 @@
     }
     .hidden {
       display: block;
+    }
+    .image {
+      display: none;
+    }
+    .desktop {
+      display: inline;
+      margin: 1rem;
     }
   }
 }

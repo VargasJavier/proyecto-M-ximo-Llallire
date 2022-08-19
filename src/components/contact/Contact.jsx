@@ -1,10 +1,12 @@
 import chat from "./../../assets/image/chat.png";
+import chat2 from "./../../assets/image/chatDesktop.png";
 import whatsapp from "./../../assets/image/whatsapp.png";
 
 const Contact = () => {
   return (
     <section className='container__contact'>
       <img className='image' src={chat} alt='Imagen para contactos' />
+      <img className='desktop' src={chat2} alt='Imagen para contactos' />
       <h2 className='subtitle'>¿Aún tienes dudas? ¡Contáctame!</h2>
       <h2 className='subtitle hidden'>Hablemos de tu proyecto</h2>
       <div className='content__decoration'>
