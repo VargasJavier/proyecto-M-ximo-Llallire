@@ -13,13 +13,15 @@ const Service = () => {
           conquistar a tu cliente.
         </p>
       </section>
-      <div className='presentation-color' />
-      <div className='container__image'>
-        <img className='image esfera1' src={esfera} alt='Esfera' />
-        <img className='image esfera2' src={esfera} alt='Esfera' />
-        <img className='image esfera3' src={esfera} alt='Esfera' />
-        <img className='image man' src={man} alt='Man' />
-      </div>
+      <section className='container__design'>
+        <div className='presentation-color' />
+        <div className='container__image'>
+          <img className='image esfera1' src={esfera} alt='Esfera' />
+          <img className='image esfera2' src={esfera} alt='Esfera' />
+          <img className='image esfera3' src={esfera} alt='Esfera' />
+          <img className='image man' src={man} alt='Man' />
+        </div>
+      </section>
     </section>
   );
 };
