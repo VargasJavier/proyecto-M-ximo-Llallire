@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import maintenance from '../../assets/image/maintenance.png';
 import working from '../../assets/image/working.png';
 import shoppingCart from '../../assets/image/shoppingCart.png';
-
+import vector from '../../assets/image/vector.png';
 
 function Skills() {
     const imagenes = [
@@ -31,22 +31,26 @@ function Skills() {
 
     return (
         <div>
-            <h2 className='color'>¡Un subtitulo para aquí!</h2>
+            <h2 className='title-major'>¡Un subtitulo para aquí!</h2>
 
-            <p>Aprovecha esta sección para resaltar los beneficios de tu producto o servicio. Las palabras clave ayudan con el SEO.</p>
+            <p className='description-major'>Aprovecha esta sección para resaltar los beneficios de tu producto o servicio. Las palabras clave ayudan con el SEO.</p>
 
             <motion.div className='slider-container'>
                 <motion.div className='slider' drag='x'
-                    dragConstraints={{ right: 23, left: -718 }}>
+                    dragConstraints={{ right: 360, left: -347 }}>
 
                     {
-                        imagenes.map((imagen, i) => (
+                        imagenes.map((imagen) => (
                             <motion.div key={imagen.id} className='item'>
                                 <img src={imagen.image} alt={imagen.title} className='container-img' />
                                 <div className='conteiner-title-description'>
-                                    <h3>{imagen.title}</h3>
+
+                                    <h3 className='title-skills'>{imagen.title}</h3>
                                     <p className='parrafo-skills'>{imagen.parrafo}</p>
                                 </div>
+                                <button>
+                                    <img src={vector} alt="vector" className='vector-skills' />
+                                </button>
                             </motion.div>
                         ))
                     }

@@ -1,8 +1,32 @@
+
+.title-major{
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000022;
+}
+
+.description-major{
+    margin:20px 20px 0 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000022;
+
+}
+
 .slider-container{
         margin: 0 auto;
         overflow-x: hidden;
-        // border: 1px solid red;
-        
         width: 100%;
         
         .slider{
@@ -13,7 +37,7 @@
             justify-content: center;
 
             .item {
-                margin: 30px;
+                margin: 0 30px 15px;
 
                 .container-img{
                     position: relative;
@@ -35,16 +59,32 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                }
-                .conteiner-title-description:nth-child(2){
-                    margin-top: 60px;
-                }
+                    
+                    .title-skills{
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #F00004;
+                        font-family: poppins;
+                        line-height: 27px;
+                    }
+
                 .parrafo-skills{
                     margin: 0px 12px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    /* Azul oscuro */
+                    color: #000022;
                 }
-                .parrafo-skills-medio{
-                    margin-top: 60px;
+                .vector-skills{
+                    position: relative;
+                    left: 115px;
+                    top: 28px;
                 }
+            }
             }    
             
         }
