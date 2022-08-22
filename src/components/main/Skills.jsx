@@ -8,7 +8,7 @@ import shoppingCart from '../../assets/image/shoppingCart.png';
 import vector from '../../assets/image/vector.png';
 
 function Skills() {
-    const imagenes = [
+    const image = [
         {
             id: 1,
             image: working,
@@ -40,7 +40,7 @@ function Skills() {
                     dragConstraints={{ right: 360, left: -347 }}>
 
                     {
-                        imagenes.map((imagen) => (
+                        image.map((imagen) => (
                             <motion.div key={imagen.id} className='item'>
                                 <img src={imagen.image} alt={imagen.title} className='container-img' />
                                 <div className='conteiner-title-description'>
