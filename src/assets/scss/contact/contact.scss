@@ -39,15 +39,19 @@
       }
       .container__whatsapp {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: 2rem;
         align-items: center;
         margin: 3rem 2rem;
-        p {
-          font-weight: bold;
-          text-decoration: underline;
-          margin-block-start: 0;
-          margin-block-end: 0;
+        .content__social {
+          display: flex;
+          align-items: center;
+          p {
+            font-weight: bold;
+            text-decoration: underline;
+            margin-block-start: 0;
+            margin-block-end: 0;
+          }
         }
       }
     }
@@ -90,7 +94,7 @@
         color: $color-white;
         border-radius: 0.5rem;
         padding: 0.5rem;
-        margin-top: 0.5rem;
+        margin-top: 2rem;
         font-weight: bold;
       }
     }
@@ -101,20 +105,70 @@
     .container__contact--desktop {
       flex-direction: row;
       margin: 4rem 0;
+      height: 35rem;
       .content__contact--desktop {
-        align-items: center;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        .section__contact--text-desktop {
+          text-align: start;
+          width: 80%;
+          .text__red {
+            color: $color-secondary;
+            font-weight: bold;
+          }
+          .subtitle {
+            margin-top: 0.5rem;
+          }
+          .content__decoration {
+            justify-content: start;
+            margin: 1.5rem 1.25rem;
+            .decoration {
+              height: 0.25rem;
+              width: 25%;
+              max-width: 10rem;
+              background: $color-secondary;
+              border-radius: 0.25rem;
+            }
+          }
+        }
         .parraph {
           padding: 0 6rem;
           text-align: center;
         }
+        .container__whatsapp {
+          justify-content: start;
+          margin: 0;
+
+          gap: 0;
+          margin-top: 3rem;
+          .content__social {
+            width: 100%;
+          }
+        }
+        .content__contact--social {
+          display: flex;
+          justify-content: space-around;
+          .contact__a {
+            padding: 0 0.5rem;
+          }
+        }
       }
       .form__contact {
         padding: 0 4rem;
+        .form__container--image {
+          display: flex;
+          justify-content: center;
+          img {
+            margin: 0 auto;
+          }
+        }
       }
     }
     .subtitle {
       display: none;
+      font-weight: bold;
     }
     .hidden {
       display: block;
