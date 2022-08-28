@@ -5,12 +5,13 @@ import esfera from './../../../assets/image/esfera.png';
 function Presentation() {
 
   return (
-    <div className='presentation-container'>
+    <div id='presentacion' className='presentation-container'>
+        <div>
 
         <div className='title-container'>
 
         {/* client title */}
-            <h1 className='presentation-title'>Hola! Soy <br /><span className='presentation-name'>Max Llallire</span></h1>
+            <h1 className='presentation-title'>Hola! <br />Soy <span className='presentation-name'>Max Llallire</span></h1>
         </div>
         {/* client description  */}
         <div className='descripcion-container' >
@@ -21,13 +22,17 @@ function Presentation() {
         {/*  contact button */}
         <div className='button-container'>
             <button className='button-contacto'>
-                <span>Contacto</span>
+                <span>Contactame</span>
             </button>
+            <button className='download-cv'>
+                <span>Descargar mi CV</span>
+            </button>
+        </div>
         </div>
 
         {/* customer profile picture */}
             <div className='presentation-color'>
-                <p>hola</p>
+                
             </div>
         <div className='container-image'>
                 <img className='presentation-image' src={perfil} alt='presentation' />
