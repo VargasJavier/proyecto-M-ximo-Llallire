@@ -3,6 +3,7 @@
   background-color: $color-primary;
   height: 903px;
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
   .title-container {
     padding: 60px 15px 0 33px;
 
@@ -10,7 +11,6 @@
       color: $color-white;
       font-weight: bolder;
       font-size: 48px;
-      font-family: "Poppins";
       line-height: 136%;
       letter-spacing: -0.02em;
       margin-bottom: 80;
@@ -44,7 +44,7 @@
       border-radius: 8px;
       background-color: #f40000;
       border-style: none;
-      font-family: "Axiforma";
+      // font-family: "Axiforma";
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -129,8 +129,8 @@
           margin: 0 30px;
           
           span{
-            font-family: 'axiforma';
-            font-size: 18px;
+            // font-family: 'axiforma';
+            font-size: 16px;
             line-height: 130%;
             text-align: center;
             color: #F40000;
