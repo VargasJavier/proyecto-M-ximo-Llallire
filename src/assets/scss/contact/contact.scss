@@ -5,17 +5,27 @@
   padding-bottom: 5rem;
   text-align: center;
   background: $color-bg;
+  .text__red {
+    color: $color-secondary;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 1rem;
+  }
   .image {
     margin: 1rem;
   }
   .desktop {
     display: none;
   }
+  .mobile{
+    display: block;
+  }
   .subtitle {
     margin: 0 1rem;
   }
   .hidden {
-    display: none;
+    font-size: 36px;
+    font-weight: 700;
   }
   .content__decoration {
     display: flex;
@@ -27,6 +37,17 @@
       max-width: 10rem;
       background: $color-secondary;
       border-radius: 0.25rem;
+    }
+  }
+  .mobile--social-first{
+    margin: 4rem 0 2rem 0;
+  }
+  .mobile--social{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    p{
+      margin-block-end: 0;
     }
   }
   .container__contact--desktop {
@@ -179,6 +200,9 @@
     .desktop {
       display: inline;
       margin: 1rem;
+    }
+    .mobile{
+      display: none;
     }
   }
 }
