@@ -36,10 +36,13 @@
   }
 
   .button-container {
-    padding: 38px 150px 0 33px;
+    display: flex;
+    // padding: 38px 150px 0 33px;
+    // margin: 15px;
+    padding: 0 10px 35px 10px;
  
     .button-contacto {
-      width: 186px;
+      width: 137px;
       height: 40px;
       border-radius: 8px;
       background-color: #f40000;
@@ -51,7 +54,16 @@
       color: $color-bg;
     }
     .download-cv{
-      display: none;
+        width: 147px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #fafafa !important; 
+        border-style: none;
+        margin: 0 30px;
+        span{
+          color: #F40000;
+          font-weight: 700;
+        }
     }
   }
   .presentation-color {

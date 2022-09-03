@@ -36,7 +36,7 @@ function Presentation() {
             </div>
         <div className='container-image'>
                 <img className='presentation-image' src={perfil} alt='presentation' />
-                <img className='presentation-esfera' src={esfera} alt='esfera' />
+                {/* <img className='presentation-esfera' src={esfera} alt='esfera' /> */}
         </div>
             
 
