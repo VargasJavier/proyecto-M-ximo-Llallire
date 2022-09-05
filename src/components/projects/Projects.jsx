@@ -7,33 +7,33 @@ import working from '../../assets/image/working.png';
 import shoppingCart from '../../assets/image/shoppingCart.png';
 import vector from '../../assets/image/vector.png';
 
-function Skills() {
+function Projects() {
     const image = [
         {
             id: 2,
             image: maintenance,
-            title: 'Desarrollo-Web',
-            parrafo: ' Realizamos desarrollo web a medida, altamente optimizado.',
+            title: '',
+            parrafo: 'Completar con el proyecto',
         },
         {
             id: 1,
             image: working,
-            title: 'Soporte',
-            parrafo: 'Mantenimiento y actualizaciones de páginas web ya creadas.',
+            title: '',
+            parrafo: 'Completar con el proyecto',
         },
         {
             id: 3,
             image: shoppingCart,
-            title: 'E-commerce',
-            parrafo: 'Creamos tu tienda online para potenciar tus ventas.',
+            title: '',
+            parrafo: 'Completar con el proyecto',
         }
     ];
 
     return (
         <div id='skills'>
-            <h2 className='title-major'>Mis servicios para tu empresa</h2>
+            <h2 className='title-major'>Mis proyectos destacados</h2>
 
-            <p className='description-major'>Lo que mis clientes obtienen al contratarme.</p>
+            <p className='description-major'>Algunos de mis trabajos realizados.</p>
 
             <motion.div className='slider-container'>
                 <motion.div className='slider' drag='x'
@@ -48,7 +48,7 @@ function Skills() {
                                     <h3 className='title-skills'>{imagen.title}</h3>
                                     <p className='parrafo-skills'>{imagen.parrafo}</p>
                                 
-                                    <button className='button-skills'> <span> Consultame </span> </button>
+                                    <img src={vector} alt="vector" className='vector-skills' />
                                 
                                 </div>
                             </motion.div>
@@ -61,4 +61,4 @@ function Skills() {
     )
 }
 
-export default Skills
+export default Projects

@@ -57,6 +57,10 @@ footer {
     line-height: 1.125rem;
   }
 }
+.container__footer-first{
+  display: flex;
+  justify-content: space-around;
+}
 footer {
   @media screen and (min-width: $laptop) {
     .text__social {

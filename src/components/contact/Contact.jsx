@@ -1,6 +1,4 @@
-import chat from "./../../assets/image/chat.png";
 import chat2 from "./../../assets/image/chatDesktop.png";
-import whatsapp from "./../../assets/image/whatsapp.png";
 import email from "./../../assets/image/icons/email.png";
 import phone from "./../../assets/image/icons/phone.png";
 import facebook from "./../../assets/image/icons/facebook.png";
@@ -12,25 +10,15 @@ const Contact = () => {
       <section className='container__contact--desktop'>
         <section className='content__contact--desktop'>
           <section className='content__contact--text'>
-            <img className='image' src={chat} alt='Imagen para contactos' />
-            <h2 className='subtitle'>¿Aún tienes dudas? ¡Contáctame!</h2>
+            <img className='image' src={chat2} alt='Imagen para contactos' />
             <section className='section__contact--text-desktop'>
-              <p className='text__red desktop'>CONTACTAME</p>
+              <p className='text__red'>CONTACTAME</p>
               <h2 className='subtitle hidden'>Hablemos sobre tu proyecto</h2>
               <div className='content__decoration'>
                 <div className='decoration'></div>
               </div>
             </section>
-            <p className='parraph image'>
-              Ofrecer un medio directo de comunicación. Puede ser un
-              contacto@maxllallire.com.ar ¡O cree un formulario al costado para
-              ponerse en contacto lo antes posible!
-            </p>
             <article className='container__whatsapp'>
-              <article className='content__social'>
-                <img className='image' src={whatsapp} alt='Ícono de Whatsapp' />
-                <p className='image'>¡Oye! ¡Estamos en whatsapp!</p>
-              </article>
               <article className='content__social'>
                 <img className='desktop' src={email} alt='Ícono de Whatsapp' />
                 <p className='desktop'>maximollallire@gmail.com</p>
@@ -66,7 +54,7 @@ const Contact = () => {
             <input type='email' placeholder='Email' />
           </div>
           <div>
-            <label htmlFor=''>Telefone</label>
+            <label htmlFor=''>Teléfono</label>
             <input type='number' placeholder='+51 11 9999 9999' />
           </div>
           <div>
@@ -74,7 +62,16 @@ const Contact = () => {
             <input type='text' placeholder='Mensaje' />
           </div>
           <button>Enviar</button>
+          <article className='mobile--social mobile--social-first mobile'>
+            <img src={email} alt='Ícono de Whatsapp' />
+            <p>maximollallire@gmail.com</p>
+          </article>
+          <article className='mobile--social mobile'>
+            <img src={phone} alt='Ícono de Whatsapp' />
+            <p>1123921321</p>
+          </article>
         </form>
+        
       </section>
     </section>
   );
