@@ -80,11 +80,26 @@
                     /* Azul oscuro */
                     color: #000022;
                 }
-                .vector-skills{
-                    position: relative;
-                    left: 115px;
-                    top: 28px;
-                }
+               .button-skills{
+                width: 186px;
+                height: 40px;
+                background-color: #F40000;
+                border-radius: 8px;
+                border-style: none;
+               
+                position: relative;
+                /* top: 500px; */
+                left: 0px;
+                /* top: 612.58px; */
+                bottom: -29px;
+                    span{
+                        color: $color-bg;
+                        font-weight: 700;
+                        font-size: 15px;
+                    }
+                    
+                    
+               }
             }
             }    
             

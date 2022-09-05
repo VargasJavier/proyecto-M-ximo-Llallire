@@ -13,7 +13,7 @@ function Skills() {
             id: 2,
             image: maintenance,
             title: 'Desarrollo-Web',
-            parrafo: ' Realizamos desarrollo web a medida, altamente optimizado. Web estructuradas y web autodministrables.',
+            parrafo: ' Realizamos desarrollo web a medida, altamente optimizado.',
         },
         {
             id: 1,
@@ -48,7 +48,7 @@ function Skills() {
                                     <h3 className='title-skills'>{imagen.title}</h3>
                                     <p className='parrafo-skills'>{imagen.parrafo}</p>
                                 
-                                    <img src={vector} alt="vector" className='vector-skills' />
+                                    <button className='button-skills'> <span> Consultame </span> </button>
                                 
                                 </div>
                             </motion.div>
