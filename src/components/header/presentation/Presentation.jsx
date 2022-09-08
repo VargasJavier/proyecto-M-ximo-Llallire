@@ -1,7 +1,7 @@
 import React from 'react';
 import perfil from './../../../assets/image/perfil.png';
-import esfera from './../../../assets/image/esfera.png';
-
+// import esfera from './../../../assets/image/esfera.png';
+import pdf from './../../../assets/cv/cv-maximo.pdf'
 function Presentation() {
 
   return (
@@ -25,7 +25,7 @@ function Presentation() {
                 <span>Contactame</span>
             </button>
             <button className='download-cv'>
-                <span>Descargar mi CV</span>
+                <a href={pdf} target='_blank' rel='noopener noreferrer' download='Cv-Maximo-Llallire' > <span>Descargar mi CV</span></a>
             </button>
         </div>
         </div>
