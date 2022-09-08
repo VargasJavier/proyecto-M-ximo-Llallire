@@ -3,10 +3,25 @@ import email from "./../../assets/image/icons/email.png";
 import phone from "./../../assets/image/icons/phone.png";
 import facebook from "./../../assets/image/icons/facebook.png";
 import instagram from "./../../assets/image/icons/instagram.png";
+import { useForm, ValidationError } from '@formspree/react';
+import { useEffect, useState } from 'react';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xoqbjnpb");
+  const [submitMessage, isSubmitMessage] = useState(false);
+  if(state.succeeded){
+    isSubmitMessage(true);
+  }
+
+  useEffect(() => {
+    setTimeout(()=> {
+      isSubmitMessage(false)
+    }, 5000)
+  }, [submitMessage])
+  
+
   return (
-    <section className='container__contact'>
+    <section id='contact' className='container__contact'>
       <section className='container__contact--desktop'>
         <section className='content__contact--desktop'>
           <section className='content__contact--text'>
@@ -41,7 +56,7 @@ const Contact = () => {
             </section>
           </section>
         </section>
-        <form className='form__contact' action=''>
+        <form className='form__contact' onSubmit={handleSubmit}>
           <div className='form__container--image'>
             <img className='desktop' src={chat2} alt='Imagen para contactos' />
           </div>
@@ -61,7 +76,12 @@ const Contact = () => {
             <label htmlFor=''>Mensaje</label>
             <input type='text' placeholder='Mensaje' />
           </div>
-          <button>Enviar</button>
+          <button type='submit' disabled={state.submitting} onClick={()=> isSubmitMessage(true)}>Enviar</button>
+          {
+            submitMessage && (
+              <p>{`Mensaje enviado :')`}</p>
+            )
+          }
           <article className='mobile--social mobile--social-first mobile'>
             <img src={email} alt='Ícono de Whatsapp' />
             <p>maximollallire@gmail.com</p>

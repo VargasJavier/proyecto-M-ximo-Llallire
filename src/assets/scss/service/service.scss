@@ -50,6 +50,17 @@
       display: none;
     }
   }
+  .article__lenguage{
+    .image__article__lenguage{
+      width: 4rem;
+      height: 4rem;
+      object-fit: contain;
+      margin: 0 1rem;
+    }
+    .parraph__article__lenguage{
+      text-align: center;
+    }
+  }
   .mobile {
     display: block;
   }
@@ -78,6 +89,10 @@
       }
     }
   .section__lenguajes--mobile{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     margin: -6rem auto 5rem auto;
   }
   .presentation-color {
