@@ -17,10 +17,10 @@ function NavBar() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='mx-auto'>
-              <Nav.Link href='#'>QUIEN SOY</Nav.Link>
-              <Nav.Link href='#'>HABILIDADES</Nav.Link>
-              <Nav.Link href='#'>SERVICIOS</Nav.Link>
-              <Nav.Link href='#'>CONTACTO</Nav.Link>
+              <Nav.Link href='#presentacion'>QUIEN SOY</Nav.Link>
+              <Nav.Link href='#skills'>HABILIDADES</Nav.Link>
+              <Nav.Link href='#service'>SERVICIOS</Nav.Link>
+              <Nav.Link href='#contact'>CONTACTO</Nav.Link>
             </Nav>
             <Nav className='ms-auto'>
               <Nav.Link>
