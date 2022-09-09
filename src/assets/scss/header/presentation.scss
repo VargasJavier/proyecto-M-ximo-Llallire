@@ -3,7 +3,7 @@
   background-color: $color-primary;
   height: 903px;
   overflow: hidden;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",sans-serif;
   .title-container {
     padding: 60px 15px 0 33px;
 
@@ -25,7 +25,7 @@
     padding: 35px 15px 0 33px;
 
     .descripcion-presentation {
-      font-family: "Poppins";
+      font-family: "Poppins",sans-serif !important; 
       font-style: normal;
       font-weight: 400;
       font-size: 18px;
