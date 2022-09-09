@@ -48,7 +48,7 @@ function Skills() {
                                     <h3 className='title-skills'>{imagen.title}</h3>
                                     <p className='parrafo-skills'>{imagen.parrafo}</p>
                                 
-                                    <button className='button-skills'> <span> Consultame </span> </button>
+                                    <button className='button-skills'> <a href="#contact"><span> Consultame </span></a> </button>
                                 
                                 </div>
                             </motion.div>

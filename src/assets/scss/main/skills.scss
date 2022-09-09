@@ -92,8 +92,13 @@
                 left: 0px;
                 /* top: 612.58px; */
                 bottom: -29px;
-                    span{
+                
+                    a{
+                        text-decoration: none;
                         color: $color-bg;
+                      }
+                
+                    span{
                         font-weight: 700;
                         font-size: 15px;
                     }

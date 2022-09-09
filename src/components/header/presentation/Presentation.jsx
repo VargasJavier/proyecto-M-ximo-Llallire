@@ -16,13 +16,13 @@ function Presentation() {
         {/* client description  */}
         <div className='descripcion-container' >
             <p className='descripcion-presentation'>
-                Un texto sobre tu producto o servicio. Explique por qué es valioso y dirija al usuario a la siguiente meta.
+            Frontend Developer. Entusiasta de la informática, la lógica y la filosofía. Apasionado por el desarrollo.
             </p>
         </div>
         {/*  contact button */}
         <div className='button-container'>
             <button className='button-contacto'>
-                <span>Contactame</span>
+                <a href="#contact"><span>Contactame</span></a>
             </button>
             <button className='download-cv'>
                 <a href={pdf} target='_blank' rel='noopener noreferrer' download='Cv-Maximo-Llallire' > <span>Descargar mi CV</span></a>
