@@ -1,7 +1,7 @@
 import React from 'react';
 import perfil from './../../../assets/image/perfil.png';
 // import esfera from './../../../assets/image/esfera.png';
-import pdf from './../../../assets/catalogo/cv-maximo.pdf'
+import pdf from './../../../assets/cv/cv-maximo.pdf'
 function Presentation() {
 
   return (
